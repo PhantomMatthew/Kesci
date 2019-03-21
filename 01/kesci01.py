@@ -6,10 +6,8 @@ import matplotlib.pyplot as plt
 
 train_data = pd.read_csv('train_set.csv')
 
-#data
 test_data = pd.read_csv('test_set.csv')
 
-#test_data
 print(train_data.dtypes)
 
 train_data.describe()
